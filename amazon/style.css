@@ -1,0 +1,196 @@
+@import url('https://fonts.cdnfonts.com/css/amazon-ember');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header{
+    background-color:rgb(6, 12, 39);
+    display: flex;
+    gap:10px;
+}
+.header a img{
+    width: 120px;
+    height: 60px;
+    padding-top: 20%;
+    padding-left: 10%;
+}
+.header p{
+    color: white;
+    display: flex;
+    font-size: small;
+}
+
+.Delevering {
+    padding-top: 20px;
+    padding-left: 20px;
+    font-size: 20px;
+    color: grey;
+}
+.Update {
+    font-weight: bold;
+
+} 
+.location-icon{
+    display: flex;
+    padding-bottom: 5px;
+}
+.navbar  {
+    display: flex;
+    background-color: #232f3e;
+}
+.nav-links{
+    display: flex;
+    gap: 20px;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family:Arial, Helvetica, sans-serif
+}
+
+.nav-links a{
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+    color: whitesmoke;
+}
+main{
+    background-image: url(https://images-eu.ssl-images-amazon.com/images/G/31/img21/2025/GW/UBS/May/Unrec/PC/1-1._CB794229172_.jpg);
+    display: flex;
+    justify-content: center;
+    height: 500px;
+    background-size: cover;
+}
+main img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    background: linear-gradient(180deg, #232f3e , white );
+
+}
+.main{
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    padding: 20px;
+    
+}
+.images .image-container{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    padding: 20px;
+}
+.images {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20%;
+    width: 300px;
+    height: 400px;
+    padding: 16px 0;
+}
+.images p{
+    font-family: 'Amazon Ember', sans-serif;
+    font-size: 25px;;
+    font-weight: bold;
+    padding-left: 10%;
+    
+}
+.images  .seemore{
+    text-decoration: none;
+    padding-right:70%;
+}
+
+main img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    background: linear-gradient(180deg, #232f3e , white );
+
+}
+.images-1 .image-container{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    padding: 20px;
+}
+.images-1 {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20%;
+    width: 300px;
+    height: 400px;
+    padding: 16px 0;
+}
+.images-1 p{
+    font-family: 'Amazon Ember', sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    padding-left: 10%;
+}
+.images-1 .seemore{
+    text-decoration: none;
+    padding-right:70%;
+}
+
+.images-2 .image-container{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    padding: 20px;
+}
+.images-2 {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20%;
+    width: 300px;
+    height: 400px;
+    padding: 16px 0;
+}
+.images-2 p{
+    font-family: 'Amazon Ember', sans-serif;
+    font-size: 25px;;
+    font-weight: bold;
+    padding-left: 10%;
+}
+.images-2 .seemore{
+    text-decoration: none;
+    padding-right:70%;
+}
+
+.images-3 .image-container{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    padding: 20px;
+}
+.images-3 {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20%;
+    width: 300px;
+    height: 400px;
+    padding: 16px 0;
+}
+.images-3 p{
+    font-family: 'Amazon Ember', sans-serif;
+    font-size: 25px;;
+    font-weight: bold;
+    padding-left: 10%;
+}
+.images-3 .seemore{
+    text-decoration: none;
+    padding-right:70%;
+}
