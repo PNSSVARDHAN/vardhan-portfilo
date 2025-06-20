@@ -1,142 +1,204 @@
- *{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-.banner{
-    display: flex;
-    justify-content: space-evenly;
-}
-.left{
-    margin-top: 8%;
-    padding-left: 5%;
-    display: flex;
-    flex-direction: column;
-}
+ * {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+ }
 
-.left h1{
-    font-size: 60px;
-}
-.left p{
-    font-size: 20px;
-}
-.buttons{
-    display: flex;
-    gap:20px;
-}
-.buttons button{
-    padding: 10px 20px;
-    border-radius: 20px;
-    border: none;
-    font-size: 16px;
-    background-color: #3a9bb8;
-}
-.buttons button:hover{
-    cursor: pointer;
-    background-color: #7cd8ec;
-}
-.skills{
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-}
-.skills h2{
-    width: 100%;
-    text-align: center;
-    font-size: 30px;
-}
-.skills img{
-    width: 100px;
-    height: 100px;
-    margin: 50px;
-}
-.skill-list>img:hover{
-    transform: scale(1.3);
-    transition: 0.3s;
-}
-.skill-list{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    
-}
-.projectlist{
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    gap:40px;
-    margin-top: 20px;
-}
-.projectlist img{
-    width: 350px;
-    height: 300px;
-    border-radius: 20px;
-}
-.projects .projectlist .inven h3{
-    font-size: 20px;
-    text-align: center;
-    margin-top: 10px;  
-}
-.projects h2{
-    text-align: center;
-    font-size: 30px;
-    margin-top: 20px;
-}
-.projectlist .inven:hover{
-    transform: scale(1.1);
-    transition: 0.3s;
-}
-.cer{
-    display: flex;
-    justify-content: space-around;
-    /* gap:20px; */
-}
-.cer .list{
-    margin-top: 5%;
-    display: flex;
-    flex-direction: column;
-    padding-bottom: 2%;
-}
-.cer .list .menu{
-    margin-bottom: 5%;
-    display: flex;
-    gap:20px;
-    justify-content: center;
-}
-.certification h2 {
-    text-align: center;
-    font-size: 30px;
-    margin-top: 1%;
-}
-.certification-list{
-    display: flex;
-    flex-wrap: wrap;
-    gap:20px;
-    justify-content: space-around;
-}
-.certification-list .item{
-    border: 1px solid #000000;
-    border-radius: 20px;
-    padding: 2%;
-}
+ .header {
+     position: fixed;
+ }
 
-.footer{
-    background-color: #3a9bb8;
-}
-.footer-content{
-    padding: 2%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap:20px;
-}
-a{
-    text-decoration: none;
-}
-.certification-list .item:hover{
-    transform: scale(1.1);
-    transition: 0.3s;
-    background-color: #a1cfd8; 
-    box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.594);
-    
-} 
+ .header .navbar-brand span {
+     font-size: 1.3rem;
+     letter-spacing: 1px;
+ }
+
+ header .btn {
+     border-radius: 20px;
+     padding: 6px 18px;
+     font-weight: 500;
+     transition: background 0.2s, color 0.2s;
+ }
+
+ header .btn-primary {
+     color: #fff;
+ }
+
+ header .btn-outline-primary:hover,
+ header .btn-primary:hover {
+     background: #0d6efd;
+     color: #fff;
+ }
+
+ @media (max-width: 991px) {
+     header .navbar-nav {
+         gap: 0.5rem;
+     }
+ }
+
+ .banner {
+     display: flex;
+     justify-content: space-evenly;
+ }
+
+ .left {
+     margin-top: 8%;
+     padding-left: 5%;
+     display: flex;
+     flex-direction: column;
+ }
+
+ .left h1 {
+     font-size: 60px;
+ }
+
+ .left p {
+     font-size: 20px;
+ }
+
+ .buttons {
+     display: flex;
+     gap: 20px;
+ }
+
+ .buttons button {
+     padding: 10px 20px;
+     border-radius: 20px;
+     border: none;
+     font-size: 16px;
+     background-color: #3a9bb8;
+ }
+
+ .buttons button:hover {
+     cursor: pointer;
+     background-color: #7cd8ec;
+ }
+
+ .skills {
+     display: flex;
+     justify-content: space-around;
+     flex-wrap: wrap;
+ }
+
+ .skills h2 {
+     width: 100%;
+     text-align: center;
+     font-size: 30px;
+ }
+
+ .skills img {
+     width: 100px;
+     height: 100px;
+     margin: 50px;
+ }
+
+ .skill-list>img:hover {
+     transform: scale(1.3);
+     transition: 0.3s;
+ }
+
+ .skill-list {
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: center;
+
+ }
+
+ .projectlist {
+     display: flex;
+     justify-content: space-around;
+     flex-wrap: wrap;
+     gap: 40px;
+     margin-top: 20px;
+ }
+
+ .projectlist img {
+     width: 350px;
+     height: 300px;
+     border-radius: 20px;
+ }
+
+ .projects .projectlist .inven h3 {
+     font-size: 20px;
+     text-align: center;
+     margin-top: 10px;
+ }
+
+ .projects h2 {
+     text-align: center;
+     font-size: 30px;
+     margin-top: 20px;
+ }
+
+ .projectlist .inven:hover {
+     transform: scale(1.1);
+     transition: 0.3s;
+ }
+
+ .cer {
+     display: flex;
+     justify-content: space-around;
+     /* gap:20px; */
+ }
+
+ .cer .list {
+     margin-top: 5%;
+     display: flex;
+     flex-direction: column;
+     padding-bottom: 2%;
+ }
+
+ .cer .list .menu {
+     margin-bottom: 5%;
+     display: flex;
+     gap: 20px;
+     justify-content: center;
+ }
+
+ .certification h2 {
+     text-align: center;
+     font-size: 30px;
+     margin-top: 1%;
+ }
+
+ .certification-list {
+     display: flex;
+     flex-wrap: wrap;
+     gap: 20px;
+     justify-content: space-around;
+ }
+
+ .certification-list .item {
+     border: 1px solid #000000;
+     border-radius: 20px;
+     padding: 2%;
+ }
+
+ .footer {
+     background-color: #3a9bb8;
+ }
+
+ .footer-content {
+     padding: 2%;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+ }
+
+ a {
+     text-decoration: none;
+ }
+
+ .certification-list .item:hover {
+     transform: scale(1.1);
+     transition: 0.3s;
+     background-color: #ffffff;
+     box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.594);
+
+ }
+
+ .social-icons a img:hover {
+     transform: scale(1.3);
+     transition: 0.4s;
+
+ }
