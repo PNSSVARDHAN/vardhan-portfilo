@@ -16,7 +16,7 @@
 
 <body>
     <div>
-        <header class="navbar navbar-expand-lg navbar-light bg-light shadow-sm py-3">
+        <header class="header navbar navbar-expand-lg navbar-light bg-light shadow-sm py-3">
             <div class="container-fluid">
                 <a class="navbar-brand d-flex align-items-center" href="index.html">
                     <img src="https://www.svgrepo.com/show/402071/letter-s.svg" alt="Logo" width="40" height="40"
@@ -26,7 +26,7 @@
                 <div class="justify-content-end d-none d-sm-flex" id="navbarNav">
                     <ul class="navbar-nav gap-2">
                         <li class="nav-item">
-                            <a class="btn btn-outline-primary" href="#skill-list">Skills</a>
+                            <a class="btn btn-outline-primary" href="#skills">Skills</a>
                         </li>
                         <li class="nav-item">
                             <a class="btn btn-outline-primary" href="#projects">Projects</a>
@@ -57,7 +57,7 @@
         <main>
             <div class="banner">
                 <div class="left col-md-7 col-sm-12 col-12">
-                    <h1>Hi, I'm Sri Vardhan</h1>
+                    <h1>Hi, I'm <strong style="color: aqua;">Sri Vardhan</strong></h1>
                     <p>I'm a Full stack web developer.</p>
                     <p>I'm passionate about building web applications that solve real-world problems.</p>
                     <p>Currently, I am working on improving my skills in web development and exploring new technologies.
@@ -65,7 +65,7 @@
                     <div class="buttons">
                         <a href="mailto:pnssvardhan@gmail.com">
                             <button>
-                                <i class="fa-regular fa-paper-plane"></i>  Contact Me
+                                <i class="fa-regular fa-paper-plane"></i> Contact Me
                             </button>
                         </a>
                         <a href="https://docs.google.com/document/d/1jDKfJCEHyXtUQ12SUYqaBu_-AGd004V55h_u2vcXvy4/export?format=pdf"
@@ -73,7 +73,6 @@
                             <button>
                                 <i class="fa-solid fa-download me-2"></i>Download Resume (PDF)
                             </button>
-                            <!-- <button class="d-flex"></button> -->
                         </a>
                     </div>
                 </div>
@@ -84,7 +83,13 @@
                 </div>
             </div>
             <div class="skills">
-                <h2>Skills</h2>
+                <div>
+                    <h2>SKILLS</h2>
+                    <!-- <dotlottie-player src="https://lottie.host/16e91c8c-39a2-4202-a407-8e3b9784dcc1/k1PZHdTeD8.lottie"
+                        background="transparent" speed="1" style="width: 300px; height: 300px" loop
+                        autoplay></dotlottie-player> -->
+                </div>
+
                 <div class="skill-list">
                     <img src="./html.svg" alt="HTML">
                     <img src="./css.svg" alt="CSS">
@@ -95,7 +100,7 @@
                 </div>
             </div>
             <div class="projects">
-                <h2>Projects</h2>
+                <h2>PROJECTS</h2>
                 <div class="projectlist">
                     <div class="inven">
                         <figure>
@@ -103,9 +108,10 @@
                             <figcaption>
                                 <h3>Inventory Management System</h3>
                             </figcaption>
-                            <!-- <i class="fa-brands fa-html5" style="color: #e67c19; font-size: 30px; width: 48px; height: 48px;"></i>
-                            <i class="fa-brands fa-css" style="color: #4978ca; font-size: 30px; width: 48px; height: 48px;"></i>
-                            <i class="fa-brands fa-python" style="color: #FFD43B; font-size: 30px; width: 48px; height: 48px;"></i> -->
+                            <div class="stack">
+                                <a href="https://github.com/PNSSVARDHAN/Inventory_Management_System">github source file
+                                </a>
+                            </div>
                         </figure>
                     </div>
                     <div class="inven">
@@ -114,7 +120,11 @@
                             <figcaption>
                                 <h3>Enterprise Production Management</h3>
                             </figcaption>
-
+                            <div class="stack">
+                                <a href="https://github.com/PNS-Srivardhan/Enterprise-production-management">github
+                                    source file
+                                </a>
+                            </div>
                         </figure>
                     </div>
                     <div class="inven">
@@ -123,6 +133,11 @@
                             <figcaption>
                                 <h3>Employee Production Update Portal</h3>
                             </figcaption>
+                            <div class="stack">
+                                <a href="https://github.com/PNSSVARDHAN/Employee-Production-Update-Portal">github source
+                                    file
+                                </a>
+                            </div>
                         </figure>
                     </div>
                     <div class="inven">
@@ -131,24 +146,32 @@
                             <figcaption>
                                 <h3>Payslip generation system</h3>
                             </figcaption>
-
+                            <div class="stack">
+                                <a href="https://github.com/PNSSVARDHAN/Staff_Management-System">github source file
+                                </a>
+                            </div>
                         </figure>
                     </div>
                 </div>
             </div>
             <div class="certification">
-                <h2>Certifications</h2>
+                <h2>CERTIFICATIONS</h2>
                 <div class="cer">
                     <div class="list">
                         <div class="certification-list">
-                            <div class="item col-md-5 col-sm-10 col-10">
-                                <h3>Java Basics</h3>
-                                <p>code 360 by coding ninjas</p>
-                                <a href="">
-                                    <img width="40" height="40"
-                                        src="https://img.icons8.com/clouds/100/view-file--v1.png" alt="view-file--v1">
-                                </a>
-                                <img src="./Coding Ninjas_idWFV0KNts_1.svg" alt="">
+                            <div class="item col-md-5 col-sm-10 col-10 d-flex">
+                                <div>
+                                    <h3>Java Basics</h3>
+                                    <p>code 360 by coding ninjas</p>
+                                    <a href="">
+                                        <img width="40" height="40"
+                                            src="https://img.icons8.com/clouds/100/view-file--v1.png"
+                                            alt="view-file--v1">
+                                    </a>
+                                    <img src="./Coding Ninjas_idWFV0KNts_1.svg" alt="">
+                                </div>
+                                <div class="anim">
+                                </div>
                             </div>
                             <div class="item col-md-5 col-sm-10 col-10">
                                 <h3>Python Libraries for Data Science</h3>
@@ -174,13 +197,13 @@
                             </div>
                             <div class="item col-md-5 col-sm-10 col-10">
                                 <h3>Python Data Structures Specialization</h3>
-                                <p>University of Michigan</p>
+                                <p>Naresh IT</p>
                                 <a href="">
                                     <img width="40" height="40"
                                         src="https://img.icons8.com/clouds/100/view-file--v1.png" alt="view-file--v1" />
                                 </a>
-                                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Wipro_Primary_Logo_Color_RGB.svg/2560px-Wipro_Primary_Logo_Color_RGB.svg.png"
-                                    alt="" width="30" height="30">
+                                <!-- <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Wipro_Primary_Logo_Color_RGB.svg/2560px-Wipro_Primary_Logo_Color_RGB.svg.png"
+                                    alt="" width="30" height="30"> -->
                             </div>
                         </div>
                     </div>
